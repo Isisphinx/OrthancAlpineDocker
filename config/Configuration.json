@@ -1,6 +1,3 @@
 {
-  "RemoteAccessAllowed": true,
-  "RegisteredUsers": {
-    "alice": "alicePassword"
-  }
+  "RemoteAccessAllowed": true
 }

@@ -30,5 +30,4 @@ COPY --from=builder /Orthanc/Build/Orthanc /Orthanc/Orthanc
 COPY --from=builder /etc/localtime /etc/localtime
 COPY config /Orthanc/config
 
-EXPOSE 8042
 CMD ["./Orthanc/Orthanc", "/Orthanc/config/"]
